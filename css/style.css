@@ -62,11 +62,13 @@ main{
 
 
 /* ------------------------ 
-all players section
+    all players section
 ------------------------ */
 
 .player-section{
     margin-top: 100px;
+    margin-bottom: 100px;
+
 }
 
 .all-players{
@@ -98,6 +100,21 @@ all players section
 
 .player img{
     width: 100%;
+}
+
+
+
+/* ------------------------ 
+    footer section
+------------------------ */
+
+footer{
+    text-align: center;
+}
+
+.social-icons img{
+    width: 32px;
+    height: 32px;
 }
 
 
