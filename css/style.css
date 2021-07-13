@@ -11,13 +11,15 @@ body{
 
 .top-header{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
     background-color: #2D25A0;
-    padding: 120px;
+    padding: 10%
 }
 
-.half-width{
+/* .half-width{
     width: 50%;
-}
+} */
 
 .header-title{
     color: white;
@@ -40,4 +42,46 @@ body{
 
 .banner-image img{
     width: 100%;
+    /* width: 556px;
+    height: 438px; */
+}
+
+
+
+
+
+
+/* --------------------------------------------------------------------
+                            Media Queries 
+-----------------------------------------------------------------------*/
+
+/* Mobile Devices */
+    
+@media only screen and (max-width:688px){
+    .container{
+        width: 100%;
+        
+    }
+
+    .top-header{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+
+
+/* Tablet device */
+
+@media only screen and (min-width: 668px) and (max-width:992px) {
+
+    .container{
+        width: 100%;
+        
+    }
+
+    .top-header{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
