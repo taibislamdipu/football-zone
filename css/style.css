@@ -96,6 +96,7 @@ main{
 .player-info{
     color: #6C6C6C;
     line-height: 26px;
+    text-align: justify;
 }
 
 .player img{
@@ -108,8 +109,10 @@ main{
     footer section
 ------------------------ */
 
-footer{
+footer {
+    
     text-align: center;
+    
 }
 
 .social-icons img{
