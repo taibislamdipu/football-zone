@@ -2,4 +2,42 @@
 
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+/* ------------------------ 
+    top header section 
+---------------------------*/
+
+.top-header{
+    display: flex;
+    background-color: #2D25A0;
+    padding: 120px;
+}
+
+.half-width{
+    width: 50%;
+}
+
+.header-title{
+    color: white;
+    font-size: 64px;
+    font-weight: 700px;
+    line-height: 80px;
+}
+
+.button{
+    width: 168px;
+    height: 44px;
+}
+
+.pink-button{
+    color: white;
+    background-color: #E02C6D;
+    text-decoration: none;
+    padding: 10px 24px;
+}
+
+.banner-image img{
+    width: 100%;
 }
