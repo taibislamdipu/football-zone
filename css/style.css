@@ -190,7 +190,7 @@ latest news section
 
 
 .video{
-    display: flex;
+    /* display: flex; */
     border-top: 5px solid;
     border-image: linear-gradient(to right, red, rgb(221, 129, 129)) 1;
 }
@@ -234,31 +234,6 @@ footer {
     width: 32px;
     height: 32px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
