@@ -1,5 +1,7 @@
 
 
+
+
 /* ------------------------
 common classes and utilities
 ---------------------------*/
@@ -43,11 +45,12 @@ a{
 
 
 
-/* navbar design css start*/
+/* --------------------------
+    navbar design css start
+-----------------------------*/
 
 ul {
     list-style-type: none;
-    /* margin-left: 0; */
     padding: 20px 8%;
     overflow: hidden;
     background-color: #2D25A0;
@@ -70,8 +73,9 @@ ul {
     background-color: #111;
   }
 
-
-/* navbar design css end*/
+/* --------------------------
+    navbar design css end
+-----------------------------*/
 
 
 
@@ -117,12 +121,8 @@ ul {
 
 .banner-image img{
     width: 100%;
-    
-    /* width: 556px;
-    height: 438px; */
+
 }
-
-
 
 
 
@@ -140,8 +140,6 @@ ul {
     grid-template-columns: repeat(3, 1fr);
     row-gap: 27px;
     column-gap: 30px;
-    /* margin-left: 8%; */
-    /* margin-right: 8%; */
     
 }
 
@@ -171,14 +169,12 @@ ul {
 
 
 /* ------------------------
-latest news section
+    latest news section
 ------------------------ */
 
 .latest-news{
     display: flex;
     justify-content: center;
-    /* background-color: tomato; */
-    
 }
 
 .news-section{
@@ -188,11 +184,6 @@ latest news section
     row-gap: 30px;
     padding-top: 20px;
     padding-bottom: 20px;
-    /* margin-left: 8%;
-    margin-right: 8%; */
-    /* padding: 15px; */
-    
-    
 }
 
 .news{
@@ -238,7 +229,7 @@ latest news section
 
 /* ------------------------ 
     latest video section
------------------------- */
+------------------------- */
 
 .all-video-section{
     margin-left: 8%;
@@ -255,13 +246,11 @@ latest news section
 .video-section{
     background-color: #0C1B23;
     color: white;
-    /* padding-top: 100px; */
     padding-bottom: 100px;
 }
 
 
 .video{
-    /* display: flex; */
     border-top: 5px solid;
     border-image: linear-gradient(to right, red, rgb(221, 129, 129));
     border-image-slice: 1;
@@ -299,13 +288,13 @@ footer {
     text-align: center;
 }
 
-.social-icons img{
-    width: 32px;
-    height: 32px;
+.icon{
+    font-size: 32px;
+    margin-left: 14px;
 }
-.social-icons img:hover{
-    background-color: #E02C6D;
-    border-radius: 50%;
+
+.icon:hover{
+    color: #E02C6D;
 }
 
 .footer-logo img{
@@ -318,26 +307,35 @@ footer {
 
 
 
-/* ------------------------ 
- animation section
------------------------- */
+/* ############################## 
+        animation section
+############################## */
 
-/* For image animation start*/
+/* --------------------------------
+    for image animation start 
+---------------------------------- */
+
 .trans-item {
     transition: 1s;
   }
   
 .trans-item:hover {
-    /* transform: translateY(-1rem); */
     transform: rotate(360deg);
-    /* box-shadow: 10px 10px 24px -13px rgba(0,0,0,0.75); */
     border-radius: 10px;
     cursor: pointer;
     
   }
-/* For image animation end*/
+/* --------------------------------
+    for image animation end 
+---------------------------------- */
 
-/* For card animation start*/
+
+
+
+
+/* --------------------------------
+    for card animation start
+----------------------------------*/
 .trans-card {
     transition: 0.4s;
   }
@@ -348,12 +346,14 @@ footer {
     border-radius: 10px;
     cursor: pointer;
   }
-/* For card animation end*/
+/* --------------------------------
+    for card animation end
+----------------------------------*/
 
 
 
 /* --------------------------------------------------------------------
-                            Media Queries 
+                    Media Queries for Mobile & Table Devices
 -----------------------------------------------------------------------*/
 
 /* Mobile Devices */
