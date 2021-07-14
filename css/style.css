@@ -26,11 +26,13 @@ main{
 }
 
 .section-title{
-    display: flex;
-    justify-content: center;
+    text-align: center;
     background-color: #2D25A0;
     color: white;
     padding: 15px;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 50px;
     
 }
 
