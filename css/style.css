@@ -4,6 +4,10 @@
 common classes and utilities
 ---------------------------*/
 
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
@@ -31,6 +35,43 @@ a{
 .red-color{
     color: red;
 }
+
+
+
+/* navbar design css */
+
+ul {
+    list-style-type: none;
+    /* margin-left: 0; */
+    padding: 20px 8%;
+    overflow: hidden;
+    background-color: #2D25A0;
+    margin: 0;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  /* .active {
+    background-color: #04AA6D;
+  } */
+
+/* navbar design css */
+
+
 
 /* ------------------------ 
     top header section 
@@ -62,6 +103,10 @@ a{
     background-color: #E02C6D;
     text-decoration: none;
     padding: 10px 24px;
+}
+
+.pink-button:hover{
+    box-shadow: 10px 10px 24px -13px rgba(0,0,0,0.75);
 }
 
 .banner-image img{
@@ -246,6 +291,39 @@ footer {
     padding: 15px;
 }
 
+
+
+/* ------------------------ 
+ animation section
+------------------------ */
+
+/* For image animation start*/
+.trans-item {
+    transition: 1s;
+  }
+  
+.trans-item:hover {
+    /* transform: translateY(-1rem); */
+    transform: rotate(360deg);
+    /* box-shadow: 10px 10px 24px -13px rgba(0,0,0,0.75); */
+    border-radius: 10px;
+    cursor: pointer;
+    
+  }
+/* For image animation end*/
+
+/* For card animation start*/
+.trans-card {
+    transition: 0.4s;
+  }
+  
+.trans-card:hover {
+    transform: translateY(-1rem);
+    box-shadow: 10px 10px 24px -13px rgba(0,0,0,0.75);
+    border-radius: 10px;
+    cursor: pointer;
+  }
+/* For card animation end*/
 
 
 
