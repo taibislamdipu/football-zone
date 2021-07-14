@@ -28,8 +28,9 @@ a{
     color: black;
 }
 
-
-
+.red-color{
+    color: red;
+}
 
 /* ------------------------ 
     top header section 
@@ -139,6 +140,7 @@ latest news section
 
 .news-detail{
     padding: 15px;
+    text-overflow: ellipsis;
 }
 
 .news-detail:hover{
@@ -161,6 +163,54 @@ latest news section
     opacity: .7;
    
 }
+
+
+/* ------------------------ 
+    latest video section
+------------------------ */
+
+.all-video-section{
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+.all-videos{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 30px;
+    row-gap: 30px;
+}
+
+.video-section{
+    background-color: #0C1B23;
+    color: white;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+
+.video{
+    display: flex;
+    border-top: 5px solid;
+    border-image: linear-gradient(to right, red, rgb(221, 129, 129)) 1;
+}
+
+.video-detail{
+    background-color: rgb(31, 53, 66);
+    padding: 15px;
+    color: white;
+}
+
+.share-button{
+    color: white;
+    
+}
+
+.share-button:hover{
+    border-bottom: 2px solid red;
+    
+}
+
 
 
 
@@ -226,7 +276,7 @@ footer {
         
     }
 
-    .top-header, .all-players, .news-section{
+    .top-header, .all-players, .news-section, .all-videos{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
     }
@@ -243,7 +293,7 @@ footer {
         
     }
 
-    .top-header, .all-players, .news-section{
+    .top-header, .all-players, .news-section, .all-videos{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
     }
