@@ -193,13 +193,17 @@ latest news section
 .video{
     /* display: flex; */
     border-top: 5px solid;
-    border-image: linear-gradient(to right, red, rgb(221, 129, 129)) 1;
+    border-image: linear-gradient(to right, red, rgb(221, 129, 129));
+    border-image-slice: 1;
+    
 }
 
 .video-detail{
     background-color: rgb(31, 53, 66);
     padding: 15px;
     color: white;
+    height: 550px;
+    overflow: hidden;
 }
 
 .share-button{
@@ -226,9 +230,7 @@ latest news section
 ------------------------ */
 
 footer {
-    
     text-align: center;
-    
 }
 
 .social-icons img{
@@ -236,6 +238,13 @@ footer {
     height: 32px;
 }
 
+.footer-logo img{
+    width: 300px;
+}
+
+.footer-content{
+    padding: 15px;
+}
 
 
 
@@ -252,7 +261,7 @@ footer {
         
     }
 
-    .top-header, .all-players, .news-section, .all-videos{
+    .top-header, .all-players, .news-section, .all-videos, .footer-content{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
     }
@@ -269,7 +278,7 @@ footer {
         
     }
 
-    .top-header, .all-players, .news-section, .all-videos{
+    .top-header, .all-players, .news-section, .all-videos, .footer-content{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
     }
