@@ -124,9 +124,8 @@ ul {
 ------------------------ */
 
 .player-section{
-    /* margin-top: 100px;
-    margin-bottom: 100px; */
-
+    display: flex;
+    justify-content: center;
 }
 
 .all-players{
@@ -134,9 +133,9 @@ ul {
     grid-template-columns: repeat(3, 1fr);
     row-gap: 27px;
     column-gap: 30px;
-    margin-left: 8%;
-    margin-right: 8%;
-    /* background-color: tomato;  */
+    /* margin-left: 8%; */
+    /* margin-right: 8%; */
+    
 }
 
 .player{
