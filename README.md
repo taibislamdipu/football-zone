@@ -1,5 +1,7 @@
 # Football Zone
 
+Responsive sports related web layout using only HTML & CSS.
+
 ## Tools and Technologies
 
 * Media Queries
