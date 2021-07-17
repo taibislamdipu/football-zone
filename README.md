@@ -12,6 +12,6 @@ Responsive sports related web layout using only HTML & CSS.
  
 ##
 
-![alt preview](https://imgur.com/d957va2)
+![](resources/preview.gif)
 
 Alternative preview: https://imgur.com/d957va2
